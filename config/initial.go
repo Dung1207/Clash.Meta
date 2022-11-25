@@ -29,8 +29,8 @@ func downloadMMDB(path string) (err error) {
 	return err
 }
 
-func downloadGeoIp(path string) (err error) {
-	resp, err := getUrl("https://github.com/rfxcll/v2ray-rules-dat/releases/download/202211250409/GeoIP.dat")
+func downloadGeoIP(path string) (err error) {
+	resp, err := http.Get(C.GeoIpUrl)
 	if err != nil {
 		return
 	}
