@@ -46,6 +46,8 @@ replace github.com/lucas-clemente/quic-go => github.com/HyNetwork/quic-go v0.30.
 
 replace github.com/sagernet/sing-tun => github.com/MetaCubeX/sing-tun v0.0.0-20221105124245-542e9b56a6dc
 
+replace github.com/gorilla/websocket => github.com/llycoris/websocket v0.0.0-20221110184045-de14921aa782
+
 require (
 	github.com/ajg/form v1.5.1 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
